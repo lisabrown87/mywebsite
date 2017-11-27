@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/resources/fonts/Poppins-Regular.ttf) format('ttf'),
+  url(/resources/fonts/Poppins-Bold.ttf) format('ttf');
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family:'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.6;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1.5rem;
+  width: 60%;
+  height: 64px;
+  justify-content: space-between;
+}
+
+
+
+
+#chameleon-container {
+  position: absolute;
+   right: -20px;
+   top: 100px;
+   height: 350px;
+   display: block;
+   overflow: hidden;
+   margin-bottom: 50px;
+}
+
+
+
+#chameleon-container .chameleon-colour {
+  display: none;
+  transition: 1s ease-in;
+}
+
+#chameleon-container:hover .chameleon-colour {
+  display: block;
+}
+
+#chameleon-container:hover .chameleon-camo {
+  display: none;
+}
+
+
+
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(70, 193, 168, 1); /* Green */
+}
+
+a {
+  line-height: 1.4;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7); /* Grey */
+}
+
+.intro {
+width: 90%;
+max-width: 600px;
+display: block;
+position: relative;
+top: 300px;
+}
+
+#hi {
+  font-size: 1rem;
+}
+
+button {
+    background-color: rgba(70, 193, 168, 1); /* Green */
+    border: 1px solid rgba(70, 193, 168, 0.5);  /* Green tint */
+    color: rgba(255, 240, 0, 1); /* yellow */
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
